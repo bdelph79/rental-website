@@ -51,24 +51,24 @@
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Room Photo -->
-                <a href="images/room.jpg" data-lightbox="apartment" class="rounded-lg overflow-hidden shadow-lg">
-                    <img src="images/room.jpg" alt="Chambre spacieuse avec dressing" class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300">
+                <a href="./images/IMG_1.jpg" data-lightbox="apartment" class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="./images/IMG_1.jpg" alt="Chambre spacieuse avec dressing" class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300">
                     <div class="p-4 bg-white">
                         <h3 class="font-semibold text-lg">Chambre Spacieuse</h3>
                         <p class="text-gray-600">Avec bureau et dressing intégré</p>
                     </div>
                 </a>
                 <!-- Bathroom Photo -->
-                <a href="images/bathroom.jpg" data-lightbox="apartment" class="rounded-lg overflow-hidden shadow-lg">
-                    <img src="images/bathroom.jpg" alt="Salle de bain moderne" class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300">
+                <a href="./images/IMG_2.jpg" data-lightbox="apartment" class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="./images/IMG_2.jpg" alt="Salle de bain moderne" class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300">
                     <div class="p-4 bg-white">
                         <h3 class="font-semibold text-lg">Salle de Bain</h3>
                         <p class="text-gray-600">Moderne et fonctionnelle</p>
                     </div>
                 </a>
                 <!-- Toilet Photo -->
-                <a href="images/toilet.jpg" data-lightbox="apartment" class="rounded-lg overflow-hidden shadow-lg">
-                    <img src="images/toilet.jpg" alt="WC séparé" class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300">
+                <a href="./images/IMG_3.jpg" data-lightbox="apartment" class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="./images/IMG_3.jpg" alt="WC séparé" class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300">
                     <div class="p-4 bg-white">
                         <h3 class="font-semibold text-lg">WC Séparé</h3>
                         <p class="text-gray-600">Installation neuve</p>
@@ -170,37 +170,16 @@
                 <p class="mt-4 text-xl text-gray-600">
                     Pour plus d'informations ou organiser une visite
                 </p>
-            </div>
-
-            <div class="mt-12 max-w-lg mx-auto">
-                <form name="apartment-contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" class="grid grid-cols-1 gap-6">
-                    <!-- Hidden fields for Netlify Forms -->
-                    <p class="hidden">
-                        <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-                    </p>
-                    <input type="hidden" name="form-name" value="apartment-contact" />
-                    <div>
-                        <label for="name" class="block text-sm font-medium text-gray-700">Nom</label>
-                        <input type="text" name="name" id="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
-                    </div>
-                    <div>
-                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-                        <input type="email" name="email" id="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
-                    </div>
-                    <div>
-                        <label for="phone" class="block text-sm font-medium text-gray-700">Téléphone</label>
-                        <input type="tel" name="phone" id="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
-                    </div>
-                    <div>
-                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
-                        <textarea name="message" id="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-                            Envoyer
-                        </button>
-                    </div>
-                </form>
+                <div class="mt-8">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfInDo-U0d9GE9g1gxA0BE3mo2so1ECTLWLdx5XJLSc8Djk-A/viewform?usp=header" 
+                       target="_blank" 
+                       class="inline-flex items-center px-8 py-4 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                        Remplir le formulaire de contact
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
