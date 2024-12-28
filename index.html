@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocation Le Bourget - RER B</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4">
+                            <span class="font-semibold text-gray-800 text-lg">Le Bourget Colocation</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <a href="#" class="py-2 px-4 text-gray-700">Accueil</a>
+                    <a href="#photos" class="py-2 px-4 text-gray-700">Photos</a>
+                    <a href="#details" class="py-2 px-4 text-gray-700">Détails</a>
+                    <a href="#contact" class="py-2 px-4 text-gray-700">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="pt-16 bg-white">
+        <div class="relative bg-gradient-to-r from-blue-600 to-blue-800 h-96">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+                <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Colocation Premium au Bourget</h1>
+                <p class="mt-6 text-xl text-white max-w-3xl">
+                    En face du RER B et du Tram T11 — À 15 minutes de Paris
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Photo Gallery -->
+    <section id="photos" class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-8">
+                Photos de l'Appartement
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Room Photo -->
+                <a href="images/room.jpg" data-lightbox="apartment" class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="images/room.jpg" alt="Chambre spacieuse avec dressing" class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-semibold text-lg">Chambre Spacieuse</h3>
+                        <p class="text-gray-600">Avec bureau et dressing intégré</p>
+                    </div>
+                </a>
+                <!-- Bathroom Photo -->
+                <a href="images/bathroom.jpg" data-lightbox="apartment" class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="images/bathroom.jpg" alt="Salle de bain moderne" class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-semibold text-lg">Salle de Bain</h3>
+                        <p class="text-gray-600">Moderne et fonctionnelle</p>
+                    </div>
+                </a>
+                <!-- Toilet Photo -->
+                <a href="images/toilet.jpg" data-lightbox="apartment" class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="images/toilet.jpg" alt="WC séparé" class="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-semibold text-lg">WC Séparé</h3>
+                        <p class="text-gray-600">Installation neuve</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="details" class="py-12 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900">
+                    Caractéristiques
+                </h2>
+                <p class="mt-4 text-xl text-gray-600">
+                    Un appartement moderne et confortable
+                </p>
+            </div>
+
+            <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- Location Features -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="px-6 py-8">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-map-marker-alt text-3xl text-blue-600"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-medium text-gray-900">Localisation Idéale</h3>
+                            </div>
+                        </div>
+                        <div class="mt-4 text-gray-600">
+                            <ul class="space-y-2">
+                                <li>• Face à la gare RER B du Bourget</li>
+                                <li>• 15 minutes de Paris centre</li>
+                                <li>• Proche du tramway T11</li>
+                                <li>• Commerces à proximité</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apartment Features -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="px-6 py-8">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-home text-3xl text-blue-600"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-medium text-gray-900">Équipements</h3>
+                            </div>
+                        </div>
+                        <div class="mt-4 text-gray-600">
+                            <ul class="space-y-2">
+                                <li>• 5 chambres avec dressing</li>
+                                <li>• 2 salles d'eau, 2 WC</li>
+                                <li>• Cuisine équipée</li>
+                                <li>• Ascenseur et interphone</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="px-6 py-8">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-concierge-bell text-3xl text-blue-600"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-medium text-gray-900">Services Inclus</h3>
+                            </div>
+                        </div>
+                        <div class="mt-4 text-gray-600">
+                            <ul class="space-y-2">
+                                <li>• Eau, électricité, chauffage inclus</li>
+                                <li>• Internet haut débit</li>
+                                <li>• Parking disponible (50€/mois)</li>
+                                <li>• Entretien des parties communes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900">
+                    Contactez-nous
+                </h2>
+                <p class="mt-4 text-xl text-gray-600">
+                    Pour plus d'informations ou organiser une visite
+                </p>
+            </div>
+
+            <div class="mt-12 max-w-lg mx-auto">
+                <form name="apartment-contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" class="grid grid-cols-1 gap-6">
+                    <!-- Hidden fields for Netlify Forms -->
+                    <p class="hidden">
+                        <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                    </p>
+                    <input type="hidden" name="form-name" value="apartment-contact" />
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Nom</label>
+                        <input type="text" name="name" id="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" name="email" id="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-sm font-medium text-gray-700">Téléphone</label>
+                        <input type="tel" name="phone" id="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea name="message" id="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                            Envoyer
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-gray-400">
+                © 2024 Le Bourget Colocation. Tous droits réservés.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>
